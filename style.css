@@ -36,7 +36,7 @@
     text-decoration: none;
     font-size: 15px;
     text-transform: uppercase;
-    
+
 }
 .nav-links ul li::after {
     content: '';
@@ -72,7 +72,8 @@ width: 100%;
 
 .semboyan {
     margin-top: 150px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
+    position: fixed;
 }
 .banner-tittle h1 span {
     color: yellow;
@@ -100,7 +101,7 @@ width: 100%;
     width: 80px;
     background: yellow;
     text-align: center;
-    padding-top: 100%;
+    padding-top: 70%;
     bottom: 0;
     position: absolute;
 }
